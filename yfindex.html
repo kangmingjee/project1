@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YF피부과</title>
+    <link rel="shortcut icon" href="IMG/F.ico">
+    <link rel="stylesheet" href="yf.css">
+  
+    <script src="Script/jquery-3.7.1.js"></script>
+    <script lang="java">
+        $(function(){
+            $(".main>li").hover(function(){
+                $(this).children(".sub").stop().slideDown();
+            }, function(){
+                $(this).children(".sub").stop().slideUp();
+            }) // hover
+
+            $(".view li").eq(0).siblings().hide();
+        })//jquery end
+    </script>
+</head>
+<body>
+     <div id="wrap">
+        <div class="logo"> <img src="IMG/F.png" alt="YF피부과">Young Fresh </div>
+        <header class="heder">
+            <nav class="nav">
+                <ul class="main">
+                    <li>
+                        <a href="#">YF피부과</a>
+                        <ul class="sub">
+                            <li><a href="#">피부과 시술</a></li>
+                            <li><a href="#">의료진 소개</a></li>
+                            <li><a href="#">인사말</a></li>
+                        </ul><!-- sub -->
+                    </li>
+                    <li>
+                        <a href="#">병원소개</a>
+                        <ul class="sub">
+                            <li><a href="#">설립과정</a></li>
+                            <li><a href="#">진료안내</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                        </ul><!-- sub -->
+                    </li>
+                    <li>
+                        <a href="#">스킨케어</a>
+                        <ul class="sub">
+                            <li><a href="#">얼굴</a></li>
+                            <li><a href="#">바디</a></li>
+                            <li><a href="#">레이저</a></li>
+                        </ul><!-- sub -->
+                    </li>
+                    <li>
+                        <a href="#">진료상담</a>
+                        <ul class="sub">
+                            <li><a href="#">예약 /문의</a></li>
+                            <li><a href="#">EVENT진행</a></li>
+                        </ul><!-- sub -->
+                    </li>
+                    <li>
+                        <a href="#">공지사항</a>
+                        <ul class="sub">
+                            <li><a href="#">이달의 이벤트</a></li>
+                            <li><a href="#">휴무공지</a></li>
+                            <li><a href="#">고객의소리</a></li>
+                        </ul><!-- sub -->
+                    </li>
+                </ul><!-- main -->
+            </nav><!-- nav -->
+
+            
+            <ul class="until">
+                <li class="until_1"><a href="#">로그인</a></li>
+                <li class="until_2"><a href="#">회원가입</a></li>
+                <li class="until_3"><a href="#">마이페이지</a></li>
+                <li class="until_4"><a href="#">검색</a></li>
+            </ul><!-- until -->
+        </div><!-- head_inner -->
+        <div class="sub_bg"></div>
+</header><!-- header -->
+
+<section id="section" class="clear_fix">
+
+        <!-- main라인  -->
+    <div id="layout">
+            <ul class="view">
+                <h1>YF피부과 BEST EVENT</h1></li>
+                <li><a href="#"><img src="IMG/main-1.jpg" alt="animal01"></a></li>
+                <li><a href="#"><img src="IMG/main2.jpg" alt="animal02"></a></li>
+                <li><a href="#"><img src="IMG/main3.jpg" alt="animal03"></a></li>
+                <li><a href="#"><img src="IMG/main4.jpg" alt="animal04"></a></li>
+            </ul><!-- view -->
+
+            <ul class="btn">
+                <li class="plus on"><a href="#"></a></li>
+                <li class="plus"><a href="#"></a></li>     
+                <li class="plus"><a href="#"></a></li>     
+                <li class="plus"><a href="#"></a></li>     
+            </ul> <!-- btn -->
+
+            <main class="main2">
+                <div class="docimg"><h1>의료진소개</h1></div>
+                <div class="box1">YF피부과</div>
+                <div class="box2">YF피부과</div>
+                <div class="box3">YF피부과</div>
+            </main><!-- main2 -->
+            
+            <!-- <div class="main33"> -->
+                <ul class="main3">
+                    <li class="hot"><h1>h.o.t 인기시술</h1></li>
+                    <li class="main3_m1"></li>
+                    <li class="main3_m2"><br>옵티멈<br>울쎄라(100샷)<br><br>25만원</li>
+                    <li class="main3_m3"><a href="#">리뷰보기  click</a></li>
+                    
+                </ul><!-- main3 -->
+            <!-- </div>main33 -->
+            
+            <div id="rivew">
+                <ul class="main4">
+                    <li class="main4_m1"></li>
+                    <li class="main4_m2"></li>
+            </ul><!-- main4 -->
+            </main><!-- rivew -->
+    </div><!-- layout -->
+
+
+    <footer id="footer" class="clear_fix" >
+
+        <!-- w100% #292929 -->
+        <div class="foot_inner">
+
+            <ul class="f_menu">
+            <!-- 1168가운데 정렬 -->
+                <li><a href="#" class="yellow">개인정보취급방침</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">사이트맵</a></li>
+                <li><a href="#">임차문의</a></li>
+                <li><a href="#">고객문의</a></li>
+                <li><a href="#">인재채용</a></li>
+            </ul><!-- f_menu -->
+
+            <ul class="info">
+                <li>(주)YF피부과</li>
+                <li>대표번호02-1234-5678</li>
+                <li>대표자 : 이영애</li>
+                <li>사업자등록번호 : 386-21-00739</li>
+                <li>주소 : 서울 강남구 강남대로 492 HM타워 2~10층, 12~13층</li>
+                <li>Copyright ⓒ 2019 YF피부과 PLASTIC SURGERY All Right Reserved.</li>
+            </ul><!-- info -->
+
+            <div class="map_1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.072387413768!2d127.02153697642815!3d37.50621082758387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3e3d68a9ccf%3A0x40cecaa930b96c7f!2zSE3tg4Dsm4w!5e0!3m2!1sko!2skr!4v1720082453682!5m2!1sko!2skr" ></iframe>
+            </div> <!-- map_1 -->
+
+    
+
+            
+
+
+        </div><!-- foot_inner -->
+    </footer><!-- footer -->
+
+
+    
+</div><!-- wrap -->
+<div class="top">
+    <!-- 포지셔닝 -->
+
+    <div class="pos">
+        <a href="#"><img src="img/side-quick-cart.png" alt="cart"></a>
+        <a href="#"><img src="img/side-quick-consult.png" alt="delivery"></a>
+        <a href="#"><img src="img/side-quick-event.png" alt="event"></a>
+        <a href="#wrap"><img src="img/side-quick-tel.png" alt="tell"></a>
+    </div><!-- pos -->
+</div><!-- top -->
+</body>
+</html>
